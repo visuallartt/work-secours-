@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Portfolio</title>
+	<!-- CDN Bootstrap-->
+	<!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>-->
+  <link rel="icon" href="img/icon.png" type="image/x-icon">
+  <link href="bootstrap-5.0/css/bootstrap.min.css" rel="stylesheet">
+  <script src="bootstrap-5.0/js/bootstrap.min.js"></script>
+	<!-- CDN jQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!--CDN AOS-->
+  <!--<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">-->
+  <link href="animation/aos-master/dist/aos.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/ea91e845b1.js" crossorigin="anonymous"></script>
+  <!--CSS-->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="navbar navbar-light fixed-top" >
+  <div class="container">
+    <a class="navbar-brand" href="#"><img src="img/logo.png" height="70 px" alt="logo" title="logo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">PORTFOLIO</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">À PROPOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#competences">COMPÉTENCES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#creations">CRÉATIONS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">CONTACTS</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</header>
+<div id="presentation" class="row h-100" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">
+  <h1>BIENVENUE</h1>
+  <div class="col-lg-4 offset-md-1">
+    <img src="img/photo.jpg"  height="200px" alt="portrait" title="portrait">	
+  </div>
+  <div class="col-lg-6 mx-auto my-auto text-presentation">
+    <p style="">Je m'appelle Chloé, j'ai 18 ans et je suis étudiante en DUT MMI (Métiers du Multimédia et de l'Internet) en 2ème année. Au travers de ce portfolio, vous découvrirez mes <a href="#competences">compétences</a>, mes <a href="#creations">créations</a> ainsi que mon <a href="img/cv.pdf" target="_blank">CV</a> et mes <a href="#contact">contacts</a>. </br> Bonne visite !</p>
+  </div>
+</div>
+<div id="competences">
+  <!--<hr id="hr2">-->
+  <h1>MES COMPÉTENCES</h1>
+
+  <div id="comp1" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">
+    <h2>DESIGN</h2>
+    <div class="contenu">
+      <img src="img/photoshop.png" alt="photoshop" title="photoshop">
+      <img src="img/illustrator.png" alt="illustrator" title="illustrator">
+      <img src="img/lightroom.png" alt="lightroom" title="lightroom">
+      <img src="img/indesign.png" alt="indesign" title="in design">
+    </div>
+  </div>
+  
+  <div id="comp2" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">
+    <h2>VIDÉO</h2>
+    <div class="contenu">
+      <img src="img/after_effects.png" alt="after_effects" title="after effects">
+      <img src="img/premiere.png" alt="premiere" title="premiere">
+      <img src="img/davinci.png" alt="davinci" title="davinci">
+
+    </div>
+  </div>
+  
+  <div id="comp3" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">
+    <h2>WEB</h2>
+      <div class="contenu">
+        <div class="part1">
+          <img src="img/html.png" alt="html" title="html">
+          <img src="img/css.png" alt="css" title="css">
+          <img src="img/php.png" alt="premiere" title="premiere">
+          <img src="img/javascript.png" alt="javascript" title="javascript">
+        </div>
+        <div class="part2">
+          <img src="img/wordpress.png" alt="wordpress" title="wordpress">
+          <img src="img/my_sql.png" alt="mysql" title="mysql">
+          <img src="img/jquery.png" alt="jquery" title="jquery"jquery>
+          <img src="img/bootstrap.png" alt="bootstrap" title="bootstrap">
+        </div>
+      </div>
+  </div>
+</div>
+
+
+<div id="creations">
+	<h1>MES CRÉATIONS</h1>
+<div class="row h-100">
+<h2>AUDIOVISUEL</h2>
+<!-- APPARENCES CODEES-->
+<div class="col-lg-4 col-md-6 my-auto mx-auto">
+  <div class="card mx-auto" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" style="border-radius:25px">
+    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#lesApparencesCodees"><img src="img/les_apparences_codees1.png" onmouseover="this.src='img/les_apparences_codees2.png';" onmouseout="this.src='img/les_apparences_codees1.png';"style="border-radius:25px; width:100%" alt="presentation-apparences-codees" title="presentation-apparences-codees"></button>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="lesApparencesCodees" tabindex="-1" aria-labelledby="apparencesCodeesLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="apparencesCodeesLabel">Les apparences codées</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <iframe class="w-100" height="300px" src="https://www.youtube.com/embed/ATyDXx8rv0U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- fin APPARENCES CODEES-->
+
+<!-- IMPOSTURE -->
+<div class="col-lg-4 col-md-6 my-auto mx-auto">
+    <div class="card mx-auto" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" style="border-radius:25px">
+      <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#lImposture"><img src="img/imposture1.png" onmouseover="this.src='img/imposture2.png';" onmouseout="this.src='img/imposture1.png';" style="border-radius:25px; width:100%" alt="presentation-imposture" title="presentation-imposture"></button>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="lImposture" tabindex="-1" aria-labelledby="impostureLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="impostureLabel">L'imposture</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <iframe class="w-100" height="300px" src="https://www.youtube.com/embed/HGK6u2t2wy0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- fin IMPOSTURE-->
+
+<!-- DIPLOMES -->
+<div class="col-lg-4 col-md-6 my-auto mx-auto">
+  <div class="card mx-auto" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" style="border-radius:25px">
+    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#diplomes"><img src="img/diplomes1.png" onmouseover="this.src='img/diplomes2.png';" onmouseout="this.src='img/diplomes1.png';" style="border-radius:25px; width:100%" alt="presentation-diplomes" title="presentation-diplomes"></button>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="diplomes" tabindex="-1" aria-labelledby="diplomesLabel" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="diplomesLabel">Cérémonie des diplômés de l'IUT de Rouen, édition 2022</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+        <iframe class="w-100" height="300px" src="https://www.youtube.com/embed/BXQ-81sIrvg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+</div>
+<!-- fin DIPLOMES-->
+
+
+<!-- THOMAS PESQUET-->
+<div class="col-lg-4 col-md-6 my-auto mx-auto">
+  <div class="card mx-auto" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" style="border-radius:25px">
+    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#thomasPesquet"><img src="img/thomas1.png" onmouseover="this.src='img/thomas2.png';" onmouseout="this.src='img/thomas1.png';" style="border-radius:25px; width:100%" alt="presentation-thomas-pesquet" title="presentation-thomas-pesquet"></button>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="thomasPesquet" tabindex="-1" aria-labelledby="thomasLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="thomasLabel">Thomas Pesquet, une rêve étoilé</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <iframe class="w-100" height="300px" src="https://www.youtube.com/embed/0Bv9onTKHik" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+      </div>
+    </div>
+  </div>
+</div>
+<!-- fin THOMAS PESQUET-->
+
+<!-- LE DEBAT-->
+<div class="col-lg-4 col-md-6 my-auto mx-auto">
+  <div class="card mx-auto" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" style="border-radius:25px">
+    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#leDebat"><img src="img/le_debat1.png" onmouseover="this.src='img/le_debat2.png';" onmouseout="this.src='img/le_debat1.png';" style="border-radius:25px; width:100%" alt="presentation-debat" title="presentation-debat"></button>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="leDebat" tabindex="-1" aria-labelledby="debatLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="debatLabel">Le débat</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <iframe class="w-100" height="300px" src="https://www.youtube.com/embed/qt9QFJH0ACE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+      </div>
+    </div>
+  </div>
+</div>
+<!-- fin LE DEBAT-->
+
+<!-- CONSTANCE-->
+<div class="col-lg-4 col-md-6 my-auto mx-auto">
+  <div class="card mx-auto" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" style="border-radius:25px">
+    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#constance"><img src="img/constance1.png" onmouseover="this.src='img/constance2.png';" onmouseout="this.src='img/constance1.png';" style="border-radius:25px; width:100%" alt="presentation-constance" title="presentation-constance"></button>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="constance" tabindex="-1" aria-labelledby="constanceLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="constanceLabel">Constance</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <iframe class="w-100" height="300px" src="https://www.youtube.com/embed/o59T77Bu2DY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+      </div>
+    </div>
+  </div>
+</div>
+<!-- fin CONSTANCE-->
+<h2>DESIGN</h2>
+
+<!-- NOUVELLES TECHNOLOGIES-->
+<div class="col-lg-4 col-md-6 my-auto mx-auto">
+  <div class="card mx-auto" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" style="border-radius:25px">
+    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#nouvellesTechnologies"><img class="purple" src="img/vivez_les_nouvelles_technologies1.png" onmouseover="this.src='img/vivez_les_nouvelles_technologies2.png';" onmouseout="this.src='img/vivez_les_nouvelles_technologies1.png';"style="border-radius:25px; width:100%" alt="presentation-nouvelles-technologies" title="presentation-nouvelles-technologies"></button>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="nouvellesTechnologies" tabindex="-1" aria-labelledby="vivezNouvellesTechnologiesLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="vivezNouvellesTechnologiesLabel">Vivez les nouvelles technologies !</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="texte-modal">
+          <p>Vivez les nouvelles technologies !</br> Promouvoir les nouvelles technologies au travers d'affiches. </br> 
+            <ul class="list-modal">Logiciels :
+              <li> Photoshop</li>
+              <li> Illustrator</li>
+            </ul>
+          </p>
+        </div>
+        <!-- Carousel-->
+        <div id="carouselNouvellesTechnologies" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="4000">
+              <img src="img/vivez_les_nouvelles_technologies3.jpg" class="d-block w-100" alt="Nouvelles Technologies Photo 1">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img src="img/vivez_les_nouvelles_technologies4.jpg" class="d-block w-100" alt="Nouvelles Technologies Photo 2">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselNouvellesTechnologies" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselNouvellesTechnologies" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div> 
+      </div>
+    </div>
+  </div>
+</div>
+<!-- fin NOUVELLES TECHNOLOGIES-->
+
+<!--</div>-->
+<!--<div class="row h-100">-->
+
+<!-- MMI FOUNDRY-->
+<div class="col-lg-4 col-md-6 my-auto mx-auto">
+  <div class="card mx-auto" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" style="border-radius:25px">
+    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#mmiFoundry"><img src="img/mmi_foundry1.png" onmouseover="this.src='img/mmi_foundry2.png';" onmouseout="this.src='img/mmi_foundry1.png';"style="border-radius:25px; width:100%" alt="presentation-mmi-foundry" title="presentation-mmi-foundry"></button>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="mmiFoundry" tabindex="-1" aria-labelledby="mmiFoundryLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="mmiFoundryLabel">MMI Foundry</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="texte-modal">
+          <p>MMI FOUNDRY</br> Concevoir un environnement graphique pour une fonderie numérique.</br> 
+            <ul class="list-modal">Logiciels :
+              <li> Photoshop</li>
+              <li> Illustrator</li>
+            </ul>
+          </p>
+        </div>
+          <!-- Carousel-->
+        <div id="carouselMmiFoundry" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="4000">
+              <img src="img/mmi_foundry2.png" class="d-block w-100" alt="MMI FOUNDRY Photo 1">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img src="img/mmi_foundry3.png" class="d-block w-100" alt="MMI FOUNDRY Photo 2">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img src="img/mmi_foundry4.png" class="d-block w-100" alt="MMI FOUNDRY Photo 3">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img src="img/mmi_foundry5.png" class="d-block w-100" alt="MMI FOUNDRY Photo 4">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img src="img/mmi_foundry6.png" class="d-block w-100" alt="MMI FOUNDRY Photo 5">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselMmiFoundry" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselMmiFoundry" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div> 
+      </div>
+    </div>
+  </div>
+</div>
+<!-- fin MMI FOUNDRY-->
+
+<!-- IUT-->
+<div class="col-lg-4 col-md-6 my-auto mx-auto">
+  <div class="card mx-auto" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" style="border-radius:25px">
+    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#Iut"><img class="purple" src="img/iut1.png" onmouseover="this.src='img/iut2.png';" onmouseout="this.src='img/iut1.png';"style="border-radius:25px; width:100%" alt="presentation-design-iut" title="presentation-design-iut"></button>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="Iut" tabindex="-1" aria-labelledby="designIut" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="designIut">Inspiration picturale</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="texte-modal">
+          <p>Proposez une image ou une série d’images qui convoque(nt) des codes picturaux dans le regard photographique. </br>
+            Pour répondre à cette commande, j’ai choisi de m’inspirer de l’artiste David Hockney qui réalise des collages photo. </br> 
+            <ul class="list-modal">Logiciels :
+              <li> Photoshop</li>
+              <li> Illustrator</li>
+            </ul>
+          </p>
+        </div>
+        <!-- Carousel-->
+        <div id="carouselIut" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="4000">
+              <img src="img/iut3.jpg" class="d-block w-100" alt="IUT Design Photo 1">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselIut" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselIut" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div> 
+      </div>
+    </div>
+  </div>
+</div>
+<!-- fin IUT-->
+
+<!--MASQUE-->
+<div class="col-lg-4 col-md-6 my-auto mx-auto">
+  <div class="card mx-auto" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" style="border-radius:25px">
+    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#masque"><img src="img/masque1.png" onmouseover="this.src='img/masque2.png';" onmouseout="this.src='img/masque1.png';"style="border-radius:25px; width:100%" alt="presentation-masque" title="presentation-masque"></button>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="masque" tabindex="-1" aria-labelledby="masqueLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="masqueLabel">Masque</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="texte-modal">
+          <p>Campagne de promotion du port du masque. 
+          </br>Dérivation d'un slogan connu et réutilisation dans le cadre de la campagne promotionel.
+          </br> Source du slogan : Volkswagen 
+          <ul class="list-modal">Logiciel :
+              <li> Illustrator</li>
+          </ul>
+          </p>
+        </div>
+        <img src="img/masque3.png" class="d-block w-100" alt="Masque">
+      </div>
+    </div>
+  </div> 
+</div>
+<!--fin de MASQUE-->
+
+<!--LE MAG-->
+<div class="col-lg-4 col-md-6 my-auto mx-auto">
+    <div class="card mx-auto" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" style="border-radius:25px">
+      <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#mag"><img src="img/le_mag1.png" onmouseover="this.src='img/le_mag2.png';" onmouseout="this.src='img/le_mag1.png';"style="border-radius:25px; width:100%" alt="presentation-le-mag" title="presentation-le-mag"></button>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="mag" tabindex="-1" aria-labelledby="leMagLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="leMagLabel">LE MAG</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+        <div class="modal-body">
+          <div class="texte-modal">
+            <p>LE MAG</br> Concevoir une "une" de magazine, ainsi que son sommaire. </br> 
+              <ul class="list-modal">Logiciels :
+                <li> Photoshop</li>
+                <li> Illustrator</li>
+                <li> Power Point (soutenance)</li>
+              </ul>
+            </p>
+          </div>
+          <!-- Carousel-->
+          <div id="carouselLeMag" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="4000">
+                <img src="img/le_mag3.png" class="d-block w-100" alt="Le Mag Photo 1">
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="img/le_mag4.png" class="d-block w-100" alt="Le Mag Photo 2">
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="img/le_mag5.png" class="d-block w-100" alt="Le Mag Photo 3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselLeMag" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselLeMag" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div> 
+        </div>
+      </div>
+    </div> 
+</div>
+<!-- fin de LE MAG-->
+
+<h2>PROJETS </h2>
+
+<!-- BAKING CONTEST-->
+<div class="col-lg-4 col-md-6 my-auto mx-auto">
+  <div class="card mx-auto" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" style="border-radius:25px">
+    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#bakingContest"><img src="img/baking_contest1.png" onmouseover="this.src='img/baking_contest2.png';" onmouseout="this.src='img/baking_contest1.png';"style="border-radius:25px; width:100%" alt="presentation-baking-contest" title="presentation-baking-contest"></button>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="bakingContest" tabindex="-1" aria-labelledby="bakingContestLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="bakingContestLabel">Baking Contest</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="texte-modal">
+          <p> Baking Contest est un concours fictif de pâtisserie organisé au Kindarena dans le cadre de notre projet tutoré. 
+            <ul class="list-modal">Logiciels :
+              <li> Photoshop</li>
+              <li> Illustrator</li>
+              <li> Premiere Pro</li>
+              <li> After Effects </li>
+              <li> Power Point (soutenance)</li>
+            </ul>
+          </p>
+        </div>
+        <!-- Carousel-->
+        <div id="carouselBakingContest" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="4000">
+              <img src="img/baking_contest2.png" class="d-block w-100" alt="BakingContest1">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img src="img/baking_contest3.png" class="d-block w-100" alt="BakingContest2">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img src="img/baking_contest4.png" class="d-block w-100" alt="BakingContest3">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img src="img/baking_contest5.png" class="d-block w-100" alt="BakingContest4">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <iframe style="margin:auto;padding:auto;display:block"width="400px" height="250px" src="https://www.youtube.com/embed/7rgnydlr4MI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselBakingContest" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselBakingContest" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- fin BAKING CONTEST-->
+
+<!--CERAM-->
+<div class="col-lg-4 col-md-6 my-auto mx-auto">
+  <div class="card mx-auto" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" style="border-radius:25px">
+    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#ceram"><img src="img/ceram1.png" onmouseover="this.src='img/ceram2.png';" onmouseout="this.src='img/ceram1.png';"style="border-radius:25px; width:100%" alt="presentation-ceram" title="presentation-ceram"></button>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="ceram" tabindex="-1" aria-labelledby="ceramLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="ceramLabel">Céram</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="texte-modal">
+          <p> CÉRAM est une entreprise fictive fabriquant des objets en argile et en céramique. 
+            <ul class="list-modal">Logiciels :
+              <li> Photoshop</li>
+              <li> Illustrator</li>
+            </ul>
+          </p>
+        </div>
+        <!-- Carousel-->
+        <div id="carouselCeram" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="4000">
+              <img src="img/ceram2.png" class="d-block w-100" alt="Céram1">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img src="img/ceram3.png" class="d-block w-100" alt="Céram2">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img src="img/ceram4.png" class="d-block w-100" alt="Céram3">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img src="img/ceram5.png" class="d-block w-100" alt="Céram4">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img src="img/ceram6.png" class="d-block w-100" alt="Céram5">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img src="img/ceram7.png" class="d-block w-100" alt="Céram6">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselCeram" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselCeram" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div> 
+</div>
+<!-- fin CERAM-->
+
+<!--RALTO-->
+<div class="col-lg-4 col-md-6 my-auto mx-auto">
+  <div class="card mx-auto" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" style="border-radius:25px">
+    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#ralto"><img src="img/ralto1.png" onmouseover="this.src='img/ralto2.png';" onmouseout="this.src='img/ralto1.png';"style="border-radius:25px; width:100%" alt="presentation-ralto" title="presentation-ralto"></button>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="ralto" tabindex="-1" aria-labelledby="raltoLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="raltoLabel">Ralto</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="texte-modal">
+          <p>Ralto est une marque de soupe lyophilisé crée dans le cadre de notre module d'écriture pour les médias numériques.
+            <ul class="list-modal">Logiciels :
+              <li> Photoshop</li>
+              <li> Illustrator</li>
+              <li> InDesign (rédaction de la charte graphique)</li>
+            </ul></p> <p> Retrouvez ici la <a href="img/ralto_charte.pdf" target="_blank">charte graphique</a> ainsi que la <a href="img/ralto_copy_strategie.pdf" target="_blank">copy strategie</a> de ce projet.</p>
+        </div>
+        <!-- Carousel-->
+        <div id="carouselRalto" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="4000">
+              <img src="img/ralto2.png" class="d-block w-100" alt="Ralto1">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img src="img/ralto3.png" class="d-block w-100" alt="Ralto2">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img src="img/ralto4.png" class="d-block w-100" alt="Ralto3">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselRalto" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselRalto" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- fin RALTO-->
+
+<!-- PLUME COLOMBES
+<div class="col-lg-4 col-md-6 my-auto mx-auto">
+  <div class="card mx-auto" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" style="border-radius:25px">
+    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#plumeColombes"><img src="img/plume_colombes1.png" onmouseover="this.src='img/baking_contest2.png';" onmouseout="this.src='img/baking_contest1.png';"style="border-radius:25px; width:100%" alt="presentation-baking-contest" title="presentation-baking-contest"></button>
+  </div>
+</div>
+Modal 
+<div class="modal fade" id="plumeColombes" tabindex="-1" aria-labelledby="plumeColombesLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="plumeColombesLabel">Baking Contest</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="texte-modal">
+          <p> Baking Contest est un concours fictif de pâtisserie organisé au Kindarena dans le cadre de notre projet tutoré. 
+            <ul class="list-modal">Logiciels :
+              <li> Photoshop</li>
+              <li> Illustrator</li>
+              <li> Premiere Pro</li>
+              <li> After Effects </li>
+              <li> Power Point (soutenance)</li>
+            </ul>
+          </p>
+        </div>
+Carousel
+        <div id="carouselPlumeColombes" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="4000">
+              <img src="img/baking_contest2.png" class="d-block w-100" alt="plumeColombes1">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img src="img/baking_contest3.png" class="d-block w-100" alt="plumeColombes2">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img src="img/baking_contest4.png" class="d-block w-100" alt="plumeColombes3">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img src="img/baking_contest5.png" class="d-block w-100" alt="plumesColombes4">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <iframe style="margin:auto;padding:auto;display:block"width="400px" height="250px" src="https://www.youtube.com/embed/7rgnydlr4MI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselPlumeColombes" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselPlumeColombes" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+fin PLUME COLOMBES-->
+
+<!--BEANY SOUND-->
+<div class="col-lg-4 col-md-6 my-auto mx-auto">
+  <div class="card mx-auto" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" style="border-radius:25px">
+    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#beanySound"><img src="img/beany_sound1.png" onmouseover="this.src='img/beany_sound2.png';" onmouseout="this.src='img/beany_sound1.png';" style="border-radius:25px; width:100%" alt="presentation-beany-sound" title="presentation-beany-sound"></button>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="beanySound" tabindex="-1" aria-labelledby="beanySoundLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="beanySoundLabel">Beany Sound</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="texte-modal">
+          <p>Beany Sound est une entreprise fictive proposant son premier produit : le bonnet connecté AX-21. 
+            <ul class="list-modal">Logiciels :
+              <li> Photoshop</li>
+              <li> Illustrator</li>
+            </ul></p>
+        </div>
+        <!-- Carousel-->
+        <div id="carouselBeanySound" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="6000">
+              <img src="img/beany_sound3.png" class="d-block w-100" width="100px" alt="BeanySound1">
+            </div>
+            <div class="carousel-item" data-bs-interval="6000">
+              <img src="img/beany_sound4.gif" class="d-block" alt="BeanySound2" style="display:block; margin: 0 auto; width:50%;">
+            </div>
+            <div class="carousel-item" data-bs-interval="6000">
+              <img src="img/beany_sound5.gif" class="d-block w-100" alt="BeanySound3" style="display:block; margin: 0 auto;">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselBeanySound" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselBeanySound" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- fin BEANY SOUND-->
+  
+  <h2>LIVRE</h2>
+
+<!--INVINCIBLE-->
+<div class="col-lg-4 col-md-6 my-auto mx-auto">
+    <div class="card mx-auto" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000" style="border-radius:25px">
+    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#invincible"><img src="img/invincible1.png" onmouseover="this.src='img/invincible2.png';" onmouseout="this.src='img/invincible1.png';"style="border-radius:25px; width:100%" alt="presentation-invincible" title="presentation-invincible"></button>
+  </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="invincible" tabindex="-1" aria-labelledby="invincibleLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="invincibleLabel">InvinciBle</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="texte-modal">
+          <p>InvinciBle est un roman de science-fiction écrit par Manon Lagnel dont j'ai réalisé la couverture. 
+            <ul class="list-modal">Logiciels :
+              <li> Photoshop</li>
+              <li> Illustrator</li>
+              <li> Lightroom </li>
+            </ul></p>
+        </div>
+        <!-- Carousel-->
+        <div id="carouselInvincible" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="4000">
+              <img src="img/invincible2.png" class="d-block w-100" width="100px" alt="Invincible1">
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img src="img/invincible3.png" class="d-block w-100" alt="Invincible2">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselInvincible" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselInvincible" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- fin INVINCIBLE-->
+
+</div> <!-- fin de div class=" row h-100"-->
+</div> <!-- fin de id ="projets"-->
+
+<div id="contact"> 
+  <h1>CONTACTS</h1>
+  <div id="compContact" data-aos="fade-up" data-aos-offset="200" data-aos-duration="1000">
+    <a href="https://www.linkedin.com/in/chloé-deschamps-344166211/" target="_blank"><i class="fab fa-linkedin fa-3x iconContact"></i><p>Chloé Deschamps</p></a>
+    <a href="mailto:deschamps-chloe@orange.fr"><i class="fas fa-envelope fa-3x iconContact"></i><p>deschamps-chloe@orange.fr</p></a>
+    <a href="https://www.instagram.com/visuall_artt/" target="_blank"><i class="fab fa-instagram fa-3x iconContact"></i><p>visuall_art</p></a>
+    <a href="img/cv.pdf" target="_blank"><i class="fas fa-sticky-note fa-3x iconContact"></i><p>CV</p></a>
+
+	<!--<p>Vous pouvez me contacter via ce formulaire ou consulter mon <a href="cv/DESCHAMPS_cv.pdf" target="_blank">CV</a>.</p>
+	<form method="post" action="php/cible.php" id="form1">
+      <fieldset>
+      	<div>
+      		<label>Nom :</label>
+      		</br>
+      		<input type="text" name="nom" id="nom" required="required">
+      	</div>
+      	<div>
+      		<label>Prénom :</label>
+      		</br>
+      		<input type="text" name="prenom" id="prenom" required="required">
+      	</div>
+      	<div>
+        	<label for="mail">Adresse mail :</label>
+        	</br>
+        	<input type="email" name="mail" id="mail" required="required">
+      	</div>
+      	<div>
+      		<label for="commentaire"> Commentaire :</label>
+      		</br>
+        	<textarea name="commentaire" id="commentaire" cols="50" rows="10" placeholder="Saisissez ici votre commentaire" required="required"></textarea>
+    	</div>
+      	<div>
+        	<input type="submit" value="Valider">
+      	</div>
+
+      </fieldset>
+     </form>-->
+  </div>
+  
+</div>
+
+<script src="js/script.js"></script>
+<!-- CDN AOS-->
+<!--<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>-->
+<script src="animation/aos-master/dist/aos.js"> </script>
+<script>AOS.init();</script>
+</body>
+</html>
